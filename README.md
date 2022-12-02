@@ -1,5 +1,5 @@
 # Employeemanagerapp
-Employee Manager UI App. It was created to connect with employee_manager Spring Boot Application
+Employee Manager UI App. It was created to connect with [employee_manager Spring Boot Application](https://github.com/RubioMorenoJA/employee_manager).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
