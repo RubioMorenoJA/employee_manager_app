@@ -1,4 +1,8 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component } from '@angular/core';
+
+import { Employee } from './employee';
+import { EmployeeService } from './employee.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +11,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public employees: Employee[] = [];
-  public selectedEmployee: Employee;
 
   constructor(private employeeService: EmployeeService) {}
 
