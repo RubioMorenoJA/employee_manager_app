@@ -54,10 +54,11 @@ a {
 i {
   color: white;
 }
+
 i.employee {
   color: black;
 }
-  
+
 a.employee {
   color: blue;
 }

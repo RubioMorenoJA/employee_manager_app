@@ -30,7 +30,7 @@ export class EmployeeService {
     return this.httpClient.put<Employee>(`${this.apiServerUrl}/employee/update`, employee);
   }
 
-  public deleteEmployee(employeeId: number): Observable<String> {
-    return this.httpClient.delete<String>(`${this.apiServerUrl}/employee/delete/${employeeId}`);
+  public deleteEmployee(employeeId: number) { //: Observable {
+    return this.httpClient.delete(`${this.apiServerUrl}/employee/delete/${employeeId}`, {responseType: 'text'});
   }
 }
